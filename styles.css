@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Oswald', sans-serif;
+}
+
+.top {
+    background-color: black;
+}
+
+.nav {
+    width: 1200px;
+    color:white;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-around;
+        
+}
+
+.nav-title{
+    margin-left: 20px;
+    
+}
+
+
+.nav-links li a{
+    justify-content: space-between;
+    
+}
+
+.btn {
+    background-color: blue;
+}
+.nav-links li .btn{
+    background-color: aqua;
+}
+
+
+    
+.btn:hover{
+    background-color: red;
+
+}
+ul{
+    color: white;
+    
+}
+.nav-links li{
+    display:inline-block;
+    justify-content: space-between;
+    
+
+}
+
+.nav li a {
+    color:white;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto; /* se hace para que se centre todo*/
+}
+
+.row {
+    display: flex;
+}
+.col{
+    margin: 10px;
+    padding: 10px;
+    /* background-color: aqua; */
+    flex:2;
+}
+.col-2{
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+
+
+.card-header{
+    background-color: rgb(83, 135, 231);
+    height: 80px;
+    border-radius: 5px;
+}
+
+.card-body{
+    height: 250px;
+    border: 1px solid gray;
+    background-color: aliceblue;
+    padding: 15px 30px;
+    margin-bottom: 40px;
+}
+
+.imgUsuario{
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    position:relative;
+    top:20px;
+    left:30px
+}
+.iconomapa{
+    width: 15px;
+    margin-right: 10px;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+.pEnlace a{
+    margin-bottom: 10px;
+}
+.margeninferior{
+    margin-bottom: 10px;
+}
+.avatar-r{
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.header{
+    background-color: black;
+    padding: 20px;
+    color: white;
+
+}
+.user-line{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 20px;
+}
+.start, .end{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+
+}
+.segundacolumna{
+    border: 2px solid grey;
+    margin-bottom: 40px;
+}
+
+.header p{
+    font-size: 1.4em;
+}
+.fechaBaja{
+    color: gray;
+}
+
+.conexiones{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.user2{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    border-top: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+
+}
+span{
+    font-size: x-large;
+}
